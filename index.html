@@ -1,0 +1,89 @@
+<!DOCTYPE  html> <!--Mendefinisakan tipe dari HTML-->
+<html>
+    <head>
+        <title>Belajar HTML5</title>
+        <meta Charset="UTF-8">
+        <style> 
+        Body{
+
+            font-family: Verdana, sans-serif;
+            font-size  : 12px;
+        }
+        header, nav, main-content, sidebar-content, footer { 
+            border:1px solid grey; margin:5px; padding:5px;
+        }                                                           
+
+        main{
+            float: left;
+            width: 60%;
+        }
+        aside{
+            float: left;
+            width: 30%}
+        footer{
+            clear:both;
+        }
+            </style> <!-- Body untuk mengatur tampilan 1 halaman secara umum-->
+    </head>
+
+    <body>
+        <header>
+            <h1>Belajar Programming</h1>
+            <h2>Bersama Sekolah Koding</h2>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a>
+                <li><a href="#">Profil</a>
+                <li><a href="#">Kontak</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <article>
+
+                <form>
+                    <label for="nama">Nama</label>
+                <input type="search" name="search" placeholder="masukan nama anda">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="masukan email anda" required>
+                <input type="submit" value="klik aku kalau udah mas">
+                </form>
+
+                <figure>
+                    <img src="indian.jpg" alt="bidadari" height="200", width="200">
+                    <figcaption>Bidadari</figcaption>
+                </figure>
+                    <h1>Daftar Pelajaran</h1>
+            
+                    <section>
+                        <h2>HTML</h2>
+                        <p>Membuat srtruktur Website</p>
+                    </section>
+        
+                     <section>
+                        <h2>CSS</h2>
+                        <p>Menghias Web agar lebih menarik</p>
+                    </section>
+                    <section>
+                        <h2>JavaScript</h2>
+                        <p>Membuat Website Lebih Interaktif dengan Javascript</p>
+                    </section>
+            </article>
+            
+        </main>
+       
+        <aside>
+            <h2>Daftar Artikel</h2>
+            <a href="#">Intro Html</a>
+            <a href="#">Mulai belajar Website</a>
+            <a href="#">Berguru sampai negeri koding</a>
+        </aside>
+
+        <footer>
+            <p>&copy; 2019 Fadhlan Cipta Nugraha</p>
+        </footer>
+    </body>
+</html>
