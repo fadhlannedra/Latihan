@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF=8">
+    <head>
+        <title>Tombol Cantik</title>
+
+        <style media="screen">
+
+            body{
+                margin: 15% 15%;
+                font-family: sans-serif;
+            } /*untuk mengatur css halaman secara umum*/
+
+            .button{
+                text-decoration: none;
+                color: white;
+                display:block;
+                padding: 5px 10px;
+                width: 200px;
+                margin: 10px;
+                font-size: 24px;
+                text-align: center;
+                border-radius: 50px;
+            } /*memanggil css secara khusus untuk menu button*/
+
+            .no-1{
+                background-color: rgb(102, 100, 237);
+            } /*untuk setting secara khusus css tombol berapa*/ 
+
+            .no-1:hover{
+                background-color: rgb(102, 100, 237);
+                animation-name: goyang;
+                animation-duration: 4s;
+            }
+            @keyframes goyang{
+            from{ background:rgb(102, 100, 237); }
+            to{ background:red;}
+            }
+
+
+            .no-2{
+                background-color: rgb(128, 128, 128);
+            }
+
+            .no-2:hover{
+                background-color: rgb(128, 128, 128);
+                animation-name: pler;
+                animation-duration: 4s;
+            }
+            @keyframes pler{
+            from{ background:rgb(128, 128, 128);}
+            to{ background:chocolate;}
+            }
+
+            .no-3{
+                background-color: brown;
+            }
+
+            .no-3:hover{
+                background-color: brown;
+                animation-name: sungsung;
+                animation-duration: 4s;
+            }
+            @keyframes sungsung{
+            from{ background: brown;}
+            to{ background: green;}
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Tips</h1>   
+        <a href="#" class="button no-1">Berhasil</a>
+        <a href="#" class="button no-2">Gagal</a>
+        <a href="#" class="button no-3">Pending</a>
+
+    </body>
+</html>
