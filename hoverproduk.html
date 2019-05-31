@@ -1,0 +1,84 @@
+<h1>Efek Hover</h1>
+
+<div id="wrap">
+    <img src="jaket.jpg" alt="" />
+    <div id="info">
+    <p> Jaket Hijau <span> 250.000,-</span>\
+        <a href="#">BELI</a>
+    </p>
+    </div>
+    </div>
+ 
+<style media="screen">
+
+    body{
+        margin: 15% 15%;
+        font-family: sans-serif;
+    }
+
+    
+    #wrap {
+             
+            width: 250px;
+            height: 250px;
+            overflow: hidden;
+            position: relative;
+            
+            
+    }
+
+    #info{
+        background-color: rgb(0,0,0,0.7);
+        position: absolute;
+        top: 0px;
+        height: 250px;
+        width: 250px;
+        text-align: center;
+        padding-top: 30%;
+        color: white;
+        font-size: 20px;
+        
+    }
+
+    #info span{
+        display: block;
+
+    }
+
+    a{
+        text-decoration: none;
+        display: block;
+        color: white;
+        width: 100px;
+        margin: 0 auto;
+        border:1px solid white;
+        padding: 5px;
+
+
+    }
+
+    a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    #wrap img{
+        width: 100%;
+        height: auto;
+    }
+
+    #wrap #info{
+        display: none;
+
+    }
+
+    #wrap:hover #info{
+        display: block;
+        
+    }
+
+
+
+
+
+</style>
